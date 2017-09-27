@@ -15,6 +15,6 @@ build: npm-build docker-build
 .PHONY: release
 release: docker-release
 
-include ../Makefile.npm.inc
-include ../Makefile.docker.inc
+include ../../Makefile.npm.inc
+include ../../Makefile.docker.inc
 

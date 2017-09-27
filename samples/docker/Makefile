@@ -11,4 +11,4 @@ build: docker-build
 .PHONY: release
 release: docker-release
 
-include ../Makefile.docker.inc
+include ../../Makefile.docker.inc
