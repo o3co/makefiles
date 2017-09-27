@@ -1,0 +1,7 @@
+#/usr/bin/env sh
+
+SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
+
+if [ $# = 1 ]; then 
+  eval make-template-$1
+fi

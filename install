@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+PWD=`pwd`
+
+#echo "export \$PATH =\"${PWD}/bin:\$PATH\"" > ~/.profile
+
+if grep -q "${PWD}/bin" ~/.profile; then
+  echo "Already installed"
+else
+  echo "export PATH =\"${PWD}/bin:\$PATH\"" >> ~/.profile
+fi
+
