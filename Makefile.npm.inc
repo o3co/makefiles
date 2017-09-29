@@ -1,3 +1,4 @@
+# See https://github.com/o3co/makefiles
 
 .PHONY: npm-build
 npm-build: npm-install

@@ -1,3 +1,5 @@
+# See https://github.com/o3co/makefiles
+
 # IF VERSION file exists, then load version from it. Otherwise use var VERSION or arg
 define version-init
 $(eval VERSION       ?= $(if $(1), echo $(1), echo "0.1.0"));

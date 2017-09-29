@@ -1,3 +1,4 @@
+# See https://github.com/o3co/makefiles
 
 .PHONY: git-no-dirty
 git-no-dirty:

@@ -1,4 +1,6 @@
-#################
+# See https://github.com/o3co/makefiles
+
+##################
 # RESTRICTION:
 #   Please configure following vars before include.
 #
